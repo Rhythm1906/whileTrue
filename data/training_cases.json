@@ -1,0 +1,148 @@
+{
+  "cases": [
+    {
+      "id": "pattern_001",
+      "character": "Desperate Farmer",
+      "text": "Your Honor, I diverted river water during the drought to save my crops. Without it, my children would starve.",
+      "category": "survival_crime",
+      "difficulty": "easy",
+      "moral_axis": "law_vs_compassion",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -8, "economy": 5, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": 8, "economy": -5, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "pattern_002",
+      "character": "Corrupt Tax Collector",
+      "text": "I skimmed 15% from tax collections, but I used half to repair the bridge the government ignored for 10 years.",
+      "category": "corruption",
+      "difficulty": "medium",
+      "moral_axis": "ends_vs_means",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 10, "economy": -8, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": -10, "economy": 8, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "pattern_003",
+      "character": "Street Medic",
+      "text": "I practiced medicine without a license in slums. I saved 40 lives but one patient died under my care.",
+      "category": "civil_disobedience",
+      "difficulty": "hard",
+      "moral_axis": "rules_vs_results",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -12, "economy": 3, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": 12, "economy": -3, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "pattern_004",
+      "character": "Factory Owner",
+      "text": "My factory dumped chemicals into the river. But it employs 500 families. Shutting me down causes mass unemployment.",
+      "category": "environmental_crime",
+      "difficulty": "medium",
+      "moral_axis": "long_term_vs_short_term",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 7, "economy": -12, "chaos": 4 } },
+        { "text": "Forgive", "effects": { "trust": -7, "economy": 12, "chaos": -4 } }
+      ]
+    },
+    {
+      "id": "pattern_005",
+      "character": "Whistleblower Journalist",
+      "text": "I leaked classified files exposing corruption. Citizens deserved to know but security info was also exposed.",
+      "category": "whistleblowing",
+      "difficulty": "hard",
+      "moral_axis": "transparency_vs_security",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -15, "economy": 4, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": 15, "economy": -4, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "pattern_006",
+      "character": "Robin Hood Hacker",
+      "text": "I hacked the city's richest bank and gave funds to 2,000 poor families. The bank also laundered criminal money.",
+      "category": "vigilante_justice",
+      "difficulty": "medium",
+      "moral_axis": "justice_vs_law",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -8, "economy": 8, "chaos": -6 } },
+        { "text": "Forgive", "effects": { "trust": 8, "economy": -8, "chaos": 6 } }
+      ]
+    },
+    {
+      "id": "pattern_007",
+      "character": "Vigilante Officer",
+      "text": "I arrested a known crime lord without warrant. He bribed every official. Evidence I gathered was technically illegal.",
+      "category": "vigilante_justice",
+      "difficulty": "hard",
+      "moral_axis": "due_process_vs_justice",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -5, "economy": -2, "chaos": -15 } },
+        { "text": "Forgive", "effects": { "trust": 5, "economy": 2, "chaos": 15 } }
+      ]
+    },
+    {
+      "id": "pattern_008",
+      "character": "Grief-Stricken Parent",
+      "text": "I assaulted the drunk driver who killed my daughter. He had prior offenses and was released on a technicality.",
+      "category": "vigilante_justice",
+      "difficulty": "medium",
+      "moral_axis": "vengeance_vs_law",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -14, "economy": 2, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": 14, "economy": -2, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "pattern_009",
+      "character": "Hungry Thief",
+      "text": "I stole bread from a wealthy bakery to feed my starving family. We have not eaten in 3 days.",
+      "category": "survival_crime",
+      "difficulty": "easy",
+      "moral_axis": "law_vs_survival",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -10, "economy": 3, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": 10, "economy": -3, "chaos": 3 } }
+      ]
+    },
+    {
+      "id": "pattern_010",
+      "character": "Protest Leader",
+      "text": "I organized illegal protests against rising taxes. Peaceful but disrupted commerce for weeks.",
+      "category": "civil_disobedience",
+      "difficulty": "medium",
+      "moral_axis": "freedom_vs_order",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -8, "economy": 6, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": 8, "economy": -6, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "pattern_011",
+      "character": "Royal Merchant",
+      "text": "I sold weapons to both sides of the border conflict. Profits funded our city's hospital expansion.",
+      "category": "corruption",
+      "difficulty": "hard",
+      "moral_axis": "ethics_vs_utility",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 12, "economy": -10, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": -12, "economy": 10, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "pattern_012",
+      "character": "Cult Preacher",
+      "text": "I gathered 200 followers preaching against the king. We are peaceful but the crowd grows daily.",
+      "category": "civil_disobedience",
+      "difficulty": "hard",
+      "moral_axis": "freedom_vs_stability",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -6, "economy": 0, "chaos": -12 } },
+        { "text": "Forgive", "effects": { "trust": 6, "economy": 0, "chaos": 12 } }
+      ]
+    }
+  ]
+}

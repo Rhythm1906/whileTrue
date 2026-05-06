@@ -1,0 +1,49 @@
+{
+  "settings": [
+    "medieval kingdom", "fantasy realm", "modern city", "small village",
+    "futuristic dystopia", "trade port", "mining town", "royal court",
+    "border outpost", "mountain monastery", "desert oasis", "coastal fishing town",
+    "industrial district", "noble estate", "underground market", "war-torn region"
+  ],
+  "character_archetypes": [
+    "merchant", "soldier", "priest", "thief", "scholar", "noble", "peasant",
+    "blacksmith", "healer", "spy", "mercenary", "tax collector", "guard captain",
+    "court jester", "hermit", "innkeeper", "alchemist", "scribe", "musician",
+    "fortune teller", "smuggler", "diplomat", "bounty hunter", "minstrel",
+    "stable hand", "shepherd", "weaver", "carpenter", "fisherman", "miller",
+    "executioner", "knight", "wizard apprentice", "tavern keeper", "midwife",
+    "town crier", "tax official", "harbor master", "caravan leader"
+  ],
+  "crime_types": [
+    "theft", "fraud", "smuggling", "treason", "blasphemy", "tax evasion",
+    "bribery", "assault", "vandalism", "trespassing", "forgery", "perjury",
+    "kidnapping", "extortion", "illegal trade", "unlicensed practice",
+    "spreading rumors", "conspiracy", "desertion", "violation of curfew",
+    "illegal gathering", "poaching", "duel without permission", "arson",
+    "harboring fugitives", "magic without license", "false weights"
+  ],
+  "moral_dilemmas": [
+    "law vs compassion", "ends vs means", "justice vs mercy",
+    "individual vs society", "tradition vs progress", "truth vs harmony",
+    "freedom vs security", "loyalty vs ethics", "vengeance vs forgiveness",
+    "duty vs personal gain", "honor vs survival", "faith vs reason",
+    "public good vs individual rights", "short-term vs long-term"
+  ],
+  "motivations": [
+    "to feed starving family", "out of revenge for past wrongs",
+    "to expose corruption", "for personal greed", "by accident",
+    "under threat from criminals", "due to mental illness",
+    "from religious conviction", "for the greater good",
+    "to protect a loved one", "from desperation", "by misunderstanding",
+    "as part of a larger conspiracy", "to challenge unjust laws"
+  ],
+  "complications": [
+    "the victim was also a criminal", "many citizens benefited",
+    "important officials were involved", "the law itself is unjust",
+    "evidence was obtained illegally", "the accused has noble blood",
+    "the accused is a child", "the accused is dying",
+    "this would set a dangerous precedent", "the kingdom is at war",
+    "religious authorities are watching", "foreign powers are interested",
+    "local economy depends on the outcome", "it happened during a crisis"
+  ]
+}

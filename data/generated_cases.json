@@ -1,0 +1,610 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "total_cases": 50,
+    "description": "Pre-generated diverse courtroom cases for Judge's Court game",
+    "scoring_system": "Sort the Court style (3 stats: trust, economy, chaos)"
+  },
+  "cases": [
+    {
+      "id": "gen_001",
+      "character": "Hooded Bread Thief",
+      "text": "Your Honor, I stole three loaves from the royal bakery to feed orphans hiding in the sewers. The baker himself overcharges the poor by triple the fair price.",
+      "category": "survival_crime",
+      "difficulty": "easy",
+      "moral_axis": "law_vs_compassion",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -10, "economy": 4, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": 10, "economy": -4, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_002",
+      "character": "Disgraced Royal Alchemist",
+      "text": "I sold the king's secret potion formulas to a foreign merchant. With the gold, I funded a free hospital that has saved over 300 children from the plague.",
+      "category": "treason",
+      "difficulty": "hard",
+      "moral_axis": "ends_vs_means",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 8, "economy": -6, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": -8, "economy": 6, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_003",
+      "character": "Renegade Knight",
+      "text": "I disobeyed direct orders to slaughter a peasant village suspected of harboring rebels. Half my unit was executed for following my refusal.",
+      "category": "civil_disobedience",
+      "difficulty": "hard",
+      "moral_axis": "duty_vs_morality",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -15, "economy": 0, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": 15, "economy": 0, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_004",
+      "character": "Greedy Mill Owner",
+      "text": "I mixed sawdust into flour to increase profits. No one died, but several children grew sick. The extra income built me a mansion overlooking the river.",
+      "category": "fraud",
+      "difficulty": "easy",
+      "moral_axis": "greed_vs_justice",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 12, "economy": -5, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": -12, "economy": 5, "chaos": 7 } }
+      ]
+    },
+    {
+      "id": "gen_005",
+      "character": "Mountain Hermit Healer",
+      "text": "Without proper papers, I treated wounded soldiers from BOTH sides of the war. Some called me a saint, others a traitor.",
+      "category": "civil_disobedience",
+      "difficulty": "medium",
+      "moral_axis": "neutrality_vs_loyalty",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -8, "economy": 2, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": 8, "economy": -2, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_006",
+      "character": "Tavern Brawler",
+      "text": "I broke a noble's jaw after he insulted my dead wife. He had been bullying commoners for years and the guards always looked away.",
+      "category": "vigilante_justice",
+      "difficulty": "medium",
+      "moral_axis": "honor_vs_law",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -10, "economy": 3, "chaos": -7 } },
+        { "text": "Forgive", "effects": { "trust": 10, "economy": -3, "chaos": 7 } }
+      ]
+    },
+    {
+      "id": "gen_007",
+      "character": "Court Astronomer",
+      "text": "I publicly declared that Earth orbits the sun, contradicting the kingdom's sacred texts. Scholars support me but the temple demands my silence.",
+      "category": "blasphemy",
+      "difficulty": "hard",
+      "moral_axis": "truth_vs_tradition",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -12, "economy": -5, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": 12, "economy": 5, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_008",
+      "character": "Smuggler's Daughter",
+      "text": "I helped my dying father smuggle medicine past the trade embargo. The medicine saved 80 plague victims in our quarantined village.",
+      "category": "smuggling",
+      "difficulty": "easy",
+      "moral_axis": "family_vs_law",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -11, "economy": -4, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": 11, "economy": 4, "chaos": 3 } }
+      ]
+    },
+    {
+      "id": "gen_009",
+      "character": "Ambitious Court Scribe",
+      "text": "I forged the late duke's will, redirecting his wealth to the city orphanage instead of his cruel nephew who would have squandered it on wars.",
+      "category": "fraud",
+      "difficulty": "hard",
+      "moral_axis": "ends_vs_means",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 6, "economy": -3, "chaos": -12 } },
+        { "text": "Forgive", "effects": { "trust": -6, "economy": 3, "chaos": 12 } }
+      ]
+    },
+    {
+      "id": "gen_010",
+      "character": "Iron Mine Foreman",
+      "text": "I knew the mine shafts were unstable but ordered work to continue to meet the king's quota. Eight miners died when the tunnel collapsed.",
+      "category": "negligence",
+      "difficulty": "medium",
+      "moral_axis": "duty_vs_safety",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 13, "economy": -10, "chaos": -4 } },
+        { "text": "Forgive", "effects": { "trust": -13, "economy": 10, "chaos": 4 } }
+      ]
+    },
+    {
+      "id": "gen_011",
+      "character": "Disguised Princess",
+      "text": "I fled the palace dressed as a peasant to escape an arranged marriage to a tyrant prince. The alliance was meant to prevent war.",
+      "category": "civil_disobedience",
+      "difficulty": "hard",
+      "moral_axis": "freedom_vs_duty",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -10, "economy": -8, "chaos": -12 } },
+        { "text": "Forgive", "effects": { "trust": 10, "economy": 8, "chaos": 12 } }
+      ]
+    },
+    {
+      "id": "gen_012",
+      "character": "Forest Witch",
+      "text": "I practiced banned herbal magic to cure villagers the church physicians refused to treat. The temple priests want me burned at the stake.",
+      "category": "blasphemy",
+      "difficulty": "medium",
+      "moral_axis": "faith_vs_results",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -14, "economy": 0, "chaos": -7 } },
+        { "text": "Forgive", "effects": { "trust": 14, "economy": 0, "chaos": 7 } }
+      ]
+    },
+    {
+      "id": "gen_013",
+      "character": "Royal Tax Collector",
+      "text": "I pocketed half the taxes from wealthy nobles for three years. None of it was spent on myself - it all went to building public wells.",
+      "category": "corruption",
+      "difficulty": "medium",
+      "moral_axis": "law_vs_public_good",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 8, "economy": -7, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": -8, "economy": 7, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_014",
+      "character": "Border Guard Captain",
+      "text": "I let 200 refugees cross illegally during the blizzard. My superior ordered me to turn them back into certain death from the cold.",
+      "category": "civil_disobedience",
+      "difficulty": "easy",
+      "moral_axis": "compassion_vs_orders",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -13, "economy": -3, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": 13, "economy": 3, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_015",
+      "character": "Underground Newspaper Editor",
+      "text": "I printed and distributed pamphlets exposing the prince's gambling debts. The truth weakened the crown's authority during a fragile peace.",
+      "category": "whistleblowing",
+      "difficulty": "hard",
+      "moral_axis": "transparency_vs_stability",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -12, "economy": 4, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": 12, "economy": -4, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_016",
+      "character": "Falsely Accused Beggar",
+      "text": "I am accused of stealing the merchant's purse, but I was praying at the temple. Three monks vouch for me, yet the merchant insists.",
+      "category": "false_accusation",
+      "difficulty": "easy",
+      "moral_axis": "evidence_vs_status",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -15, "economy": 5, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": 15, "economy": -5, "chaos": 3 } }
+      ]
+    },
+    {
+      "id": "gen_017",
+      "character": "Royal Banquet Poisoner",
+      "text": "I poisoned the foreign ambassador's wine - he was secretly orchestrating the assassination of our queen. I had no proof, only a servant's whisper.",
+      "category": "vigilante_justice",
+      "difficulty": "hard",
+      "moral_axis": "preemption_vs_justice",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 5, "economy": -8, "chaos": -15 } },
+        { "text": "Forgive", "effects": { "trust": -5, "economy": 8, "chaos": 15 } }
+      ]
+    },
+    {
+      "id": "gen_018",
+      "character": "Old Soldier Pension Forger",
+      "text": "I created false war veterans on the pension rolls. The money fed my dying comrades the crown abandoned after the war ended.",
+      "category": "fraud",
+      "difficulty": "medium",
+      "moral_axis": "loyalty_vs_law",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -7, "economy": -6, "chaos": -4 } },
+        { "text": "Forgive", "effects": { "trust": 7, "economy": 6, "chaos": 4 } }
+      ]
+    },
+    {
+      "id": "gen_019",
+      "character": "Slave Ship Mutineer",
+      "text": "I led an uprising on a slave galley, killing the captain. The ship belonged to a noble with deep ties to the royal court.",
+      "category": "vigilante_justice",
+      "difficulty": "hard",
+      "moral_axis": "freedom_vs_property",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -14, "economy": 5, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": 14, "economy": -5, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_020",
+      "character": "Devout Monk Arsonist",
+      "text": "I burned down the brothel that operated next to our monastery. Twelve workers lost their livelihoods but our novices are no longer corrupted.",
+      "category": "vigilante_justice",
+      "difficulty": "medium",
+      "moral_axis": "morality_vs_livelihood",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 6, "economy": 5, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": -6, "economy": -5, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_021",
+      "character": "Royal Stable Hand",
+      "text": "I freed the king's prized racing horses before the race. Their handler was beating them bloody to make them faster.",
+      "category": "civil_disobedience",
+      "difficulty": "easy",
+      "moral_axis": "mercy_vs_property",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -5, "economy": -8, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": 5, "economy": 8, "chaos": 3 } }
+      ]
+    },
+    {
+      "id": "gen_022",
+      "character": "Fortune Teller of the Slums",
+      "text": "I predicted the recent earthquake three days before it struck. People believe I caused it. The temple says I consort with demons.",
+      "category": "blasphemy",
+      "difficulty": "medium",
+      "moral_axis": "fear_vs_reason",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -12, "economy": 0, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": 12, "economy": 0, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_023",
+      "character": "Castle Cook",
+      "text": "I served the spoiled meat to the visiting nobles instead of throwing it away. They humiliated us servants for years - now half are bedridden.",
+      "category": "vigilante_justice",
+      "difficulty": "medium",
+      "moral_axis": "petty_revenge_vs_justice",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 4, "economy": -10, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": -4, "economy": 10, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_024",
+      "character": "Rebel Songwriter",
+      "text": "My ballads about the king's failed campaigns spread through every tavern. Soldiers are deserting and recruitment has collapsed.",
+      "category": "treason",
+      "difficulty": "hard",
+      "moral_axis": "free_speech_vs_security",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -8, "economy": 3, "chaos": -13 } },
+        { "text": "Forgive", "effects": { "trust": 8, "economy": -3, "chaos": 13 } }
+      ]
+    },
+    {
+      "id": "gen_025",
+      "character": "Plague Doctor",
+      "text": "I quarantined an entire neighborhood without permission, locking 400 people inside. Most survived, but 30 trapped uninfected died of starvation.",
+      "category": "vigilante_justice",
+      "difficulty": "hard",
+      "moral_axis": "greater_good_vs_individual",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -10, "economy": -3, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": 10, "economy": 3, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_026",
+      "character": "Coastal Lighthouse Keeper",
+      "text": "I extinguished the lighthouse during the storm, hoping the merchant fleet would crash. They had betrayed my village to pirates years ago.",
+      "category": "vigilante_justice",
+      "difficulty": "hard",
+      "moral_axis": "vengeance_vs_innocence",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 10, "economy": -7, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": -10, "economy": 7, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_027",
+      "character": "Twin of the Accused",
+      "text": "My brother committed the crime but I confessed in his place. He has a wife and three children. I have nothing to lose.",
+      "category": "false_accusation",
+      "difficulty": "medium",
+      "moral_axis": "sacrifice_vs_truth",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -8, "economy": 2, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": 8, "economy": -2, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_028",
+      "character": "Royal Falconer",
+      "text": "I trained the king's hunting falcons to attack tax assessors. Several officials lost eyes. The peasants now hide me as a hero.",
+      "category": "vigilante_justice",
+      "difficulty": "medium",
+      "moral_axis": "rebellion_vs_order",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 5, "economy": 4, "chaos": -12 } },
+        { "text": "Forgive", "effects": { "trust": -5, "economy": -4, "chaos": 12 } }
+      ]
+    },
+    {
+      "id": "gen_029",
+      "character": "Grave Robber Scholar",
+      "text": "I dug up ancient tombs to study forgotten medicine. My research now saves lives daily, but I desecrated 47 sacred burial sites.",
+      "category": "blasphemy",
+      "difficulty": "hard",
+      "moral_axis": "knowledge_vs_tradition",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -7, "economy": -8, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": 7, "economy": 8, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_030",
+      "character": "Underground Fight Promoter",
+      "text": "I run illegal pit fights in the abandoned coliseum. Fighters earn more in one night than a month of honest work, but three have died.",
+      "category": "illegal_trade",
+      "difficulty": "easy",
+      "moral_axis": "freedom_vs_safety",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 6, "economy": -8, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": -6, "economy": 8, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_031",
+      "character": "Blind Beggar Spy",
+      "text": "I pretended to be blind for twenty years, gathering secrets for a foreign king. The intelligence prevented two wars on our border.",
+      "category": "treason",
+      "difficulty": "hard",
+      "moral_axis": "deception_vs_peace",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 8, "economy": -5, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": -8, "economy": 5, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_032",
+      "character": "Apprentice Locksmith",
+      "text": "I duplicated keys to wealthy homes and sold them to thieves. My master beat me for years and stole my wages - this was my escape fund.",
+      "category": "fraud",
+      "difficulty": "easy",
+      "moral_axis": "circumstance_vs_crime",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 3, "economy": -10, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": -3, "economy": 10, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_033",
+      "character": "Convent Mother Superior",
+      "text": "I hid runaway brides from forced marriages in my convent walls. Three powerful families demand their property back.",
+      "category": "civil_disobedience",
+      "difficulty": "medium",
+      "moral_axis": "freedom_vs_tradition",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -13, "economy": 0, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": 13, "economy": 0, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_034",
+      "character": "Royal Court Jester",
+      "text": "My latest joke mocked the queen's infertility in front of foreign dignitaries. The crowd laughed but the queen wept openly.",
+      "category": "blasphemy",
+      "difficulty": "easy",
+      "moral_axis": "humor_vs_dignity",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 6, "economy": 0, "chaos": -7 } },
+        { "text": "Forgive", "effects": { "trust": -6, "economy": 0, "chaos": 7 } }
+      ]
+    },
+    {
+      "id": "gen_035",
+      "character": "Desert Caravan Leader",
+      "text": "I abandoned half my caravan in the sandstorm to save my own family. Twenty-three people died, but my children survived.",
+      "category": "negligence",
+      "difficulty": "hard",
+      "moral_axis": "self_vs_others",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 12, "economy": -8, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": -12, "economy": 8, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_036",
+      "character": "Heretic Preacher",
+      "text": "I taught that the gods do not exist and that humans alone shape their fate. Thousands now follow me. The temples are emptying.",
+      "category": "blasphemy",
+      "difficulty": "hard",
+      "moral_axis": "belief_vs_authority",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -10, "economy": -5, "chaos": -12 } },
+        { "text": "Forgive", "effects": { "trust": 10, "economy": 5, "chaos": 12 } }
+      ]
+    },
+    {
+      "id": "gen_037",
+      "character": "Drunken Town Watchman",
+      "text": "I was passed out drunk when bandits attacked the market. Four merchants died but I had been working triple shifts without rest.",
+      "category": "negligence",
+      "difficulty": "easy",
+      "moral_axis": "responsibility_vs_circumstance",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 8, "economy": -5, "chaos": -6 } },
+        { "text": "Forgive", "effects": { "trust": -8, "economy": 5, "chaos": 6 } }
+      ]
+    },
+    {
+      "id": "gen_038",
+      "character": "Dragon Egg Smuggler",
+      "text": "I stole an egg from the royal hatchery and sold it to a foreign collector. The gold paid off my entire village's tax debt.",
+      "category": "smuggling",
+      "difficulty": "medium",
+      "moral_axis": "community_vs_kingdom",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -9, "economy": -7, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": 9, "economy": 7, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_039",
+      "character": "Wartime Black Market Trader",
+      "text": "I sold weapons to civilians during the siege. Most used them to defend their families. Some used them to settle old grudges.",
+      "category": "illegal_trade",
+      "difficulty": "medium",
+      "moral_axis": "self_defense_vs_chaos",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 4, "economy": -9, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": -4, "economy": 9, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_040",
+      "character": "Royal Gardener",
+      "text": "I grew forbidden poppies in the queen's private garden. The opium I produced eased the suffering of dying war veterans.",
+      "category": "illegal_trade",
+      "difficulty": "easy",
+      "moral_axis": "mercy_vs_law",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -8, "economy": 3, "chaos": -4 } },
+        { "text": "Forgive", "effects": { "trust": 8, "economy": -3, "chaos": 4 } }
+      ]
+    },
+    {
+      "id": "gen_041",
+      "character": "Disgraced Royal Tutor",
+      "text": "I taught the prince that his father is a coward and tyrant. The boy now refuses to attend war councils. The king demands my tongue.",
+      "category": "treason",
+      "difficulty": "hard",
+      "moral_axis": "education_vs_loyalty",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -7, "economy": 2, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": 7, "economy": -2, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_042",
+      "character": "Village Witch Hunter",
+      "text": "I burned 14 women I claimed were witches. Most were just elderly herbalists. The villages now sleep peacefully fearing no curses.",
+      "category": "vigilante_justice",
+      "difficulty": "hard",
+      "moral_axis": "fear_vs_innocence",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 13, "economy": -3, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": -13, "economy": 3, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_043",
+      "character": "Royal Cartographer",
+      "text": "I sold accurate maps of our kingdom to foreign merchants. They use them for trade, but enemies could use them for invasion.",
+      "category": "treason",
+      "difficulty": "medium",
+      "moral_axis": "commerce_vs_security",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 7, "economy": -10, "chaos": -5 } },
+        { "text": "Forgive", "effects": { "trust": -7, "economy": 10, "chaos": 5 } }
+      ]
+    },
+    {
+      "id": "gen_044",
+      "character": "Cursed Twin Babies' Mother",
+      "text": "I refused to drown my newborn twins as the old laws demand. The village elders say their birth brings drought and ruin.",
+      "category": "civil_disobedience",
+      "difficulty": "easy",
+      "moral_axis": "love_vs_superstition",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -15, "economy": -2, "chaos": -8 } },
+        { "text": "Forgive", "effects": { "trust": 15, "economy": 2, "chaos": 8 } }
+      ]
+    },
+    {
+      "id": "gen_045",
+      "character": "Royal Treasury Auditor",
+      "text": "I discovered the king himself is embezzling from the treasury. I wrote a public letter exposing him before he could silence me.",
+      "category": "whistleblowing",
+      "difficulty": "hard",
+      "moral_axis": "truth_vs_power",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -15, "economy": 8, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": 15, "economy": -8, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_046",
+      "character": "Mute Street Musician",
+      "text": "I was caught begging without a permit. The license costs more than I earn in a year, and my mute condition prevents most other work.",
+      "category": "minor_offense",
+      "difficulty": "easy",
+      "moral_axis": "system_vs_individual",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -12, "economy": 3, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": 12, "economy": -3, "chaos": 3 } }
+      ]
+    },
+    {
+      "id": "gen_047",
+      "character": "Veteran War Captain",
+      "text": "I executed five enemy prisoners after they killed my entire scouting party in violation of the truce. The king's treaty demands their safe return.",
+      "category": "vigilante_justice",
+      "difficulty": "hard",
+      "moral_axis": "vengeance_vs_diplomacy",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 5, "economy": -7, "chaos": -10 } },
+        { "text": "Forgive", "effects": { "trust": -5, "economy": 7, "chaos": 10 } }
+      ]
+    },
+    {
+      "id": "gen_048",
+      "character": "Unlicensed Toy Maker",
+      "text": "I sell wooden toys at half the guild's price. Poor families can finally afford gifts for their children, but the toy guild demands my workshop be burned.",
+      "category": "illegal_trade",
+      "difficulty": "easy",
+      "moral_axis": "free_market_vs_guilds",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -8, "economy": -5, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": 8, "economy": 5, "chaos": 3 } }
+      ]
+    },
+    {
+      "id": "gen_049",
+      "character": "Suspected Spy Foreigner",
+      "text": "I was caught with maps and coded letters. They are recipes from my homeland I planned to teach in my new restaurant. I speak no common tongue.",
+      "category": "false_accusation",
+      "difficulty": "medium",
+      "moral_axis": "fear_vs_evidence",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": -10, "economy": -4, "chaos": -7 } },
+        { "text": "Forgive", "effects": { "trust": 10, "economy": 4, "chaos": 7 } }
+      ]
+    },
+    {
+      "id": "gen_050",
+      "character": "Ferryman of the Dead",
+      "text": "I charged grieving families triple fees to cross the river with their dead. I have nine children of my own to feed and the river floods cost everything.",
+      "category": "exploitation",
+      "difficulty": "easy",
+      "moral_axis": "survival_vs_ethics",
+      "choices": [
+        { "text": "Punish", "effects": { "trust": 9, "economy": -6, "chaos": -3 } },
+        { "text": "Forgive", "effects": { "trust": -9, "economy": 6, "chaos": 3 } }
+      ]
+    }
+  ]
+}
