@@ -1,0 +1,112 @@
+[
+  {
+    "character": "Village Farmer",
+    "text": "A farmer illegally used river water during drought season.",
+    "choices": [
+      {
+        "text": "Punish",
+        "effects": {
+          "trust": -10,
+          "economy": 5,
+          "chaos": -5
+        }
+      },
+      {
+        "text": "Forgive",
+        "effects": {
+          "trust": 10,
+          "economy": -5,
+          "chaos": 10
+        }
+      }
+    ]
+  },
+  {
+    "character": "Market Vendor",
+    "text": "A vendor is accused of selling overpriced food after a supply shortage.",
+    "choices": [
+      {
+        "text": "Fine",
+        "effects": {
+          "trust": 5,
+          "economy": 10,
+          "chaos": -5
+        }
+      },
+      {
+        "text": "Warn",
+        "effects": {
+          "trust": 10,
+          "economy": -5,
+          "chaos": 5
+        }
+      }
+    ]
+  },
+  {
+    "character": "Town Guard",
+    "text": "A guard accepted a small bribe to look the other way at a broken gate.",
+    "choices": [
+      {
+        "text": "Dismiss",
+        "effects": {
+          "trust": 10,
+          "economy": -5,
+          "chaos": 5
+        }
+      },
+      {
+        "text": "Prosecute",
+        "effects": {
+          "trust": -5,
+          "economy": 10,
+          "chaos": -10
+        }
+      }
+    ]
+  },
+  {
+    "character": "Guild Apprentice",
+    "text": "An apprentice secretly copied a masterwork to learn the craft faster.",
+    "choices": [
+      {
+        "text": "Ban",
+        "effects": {
+          "trust": -5,
+          "economy": 5,
+          "chaos": -10
+        }
+      },
+      {
+        "text": "Mentor",
+        "effects": {
+          "trust": 10,
+          "economy": -10,
+          "chaos": 5
+        }
+      }
+    ]
+  },
+  {
+    "character": "River Boat Captain",
+    "text": "A captain ignored local curfew laws to rescue stranded travelers.",
+    "choices": [
+      {
+        "text": "Reward",
+        "effects": {
+          "trust": 10,
+          "economy": -5,
+          "chaos": 5
+        }
+      },
+      {
+        "text": "Punish",
+        "effects": {
+          "trust": -10,
+          "economy": 5,
+          "chaos": -5
+        }
+      }
+    ]
+  }
+]
